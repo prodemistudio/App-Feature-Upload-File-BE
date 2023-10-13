@@ -11,7 +11,7 @@ const config = {
 }
 
 export const sftpDir = {
-    files: '/home/promediaftp/ftp/files'
+    files: ''
 }
 
 const sftp = new Client();
