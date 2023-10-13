@@ -1,10 +1,10 @@
 import Client from 'ssh2-sftp-client'
 
 const config = {
-    host: '101.50.0.227',
-    port: '22',
-    username: 'promediaftp',
-    password: 'promediaftp*123#',
+    host: '',
+    port: '',
+    username: '',
+    password: '',
     forceIPv4: false,
     forceIPv6: false,
     readyTimeout: 60000
