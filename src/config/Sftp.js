@@ -1,5 +1,6 @@
 import Client from 'ssh2-sftp-client'
 
+//silahkan disesuaikan dengan konfigurasi SFTP Anda
 const config = {
     host: '',
     port: '',
@@ -11,7 +12,7 @@ const config = {
 }
 
 export const sftpDir = {
-    files: ''
+    files: '/files'
 }
 
 const sftp = new Client();
@@ -25,3 +26,7 @@ sftp.connect(config)
     })
 
 export default sftp
+
+
+/* End of file Sftp.js */
+/* Location: ./config/Sftp.js */
